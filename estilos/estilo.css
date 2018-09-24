@@ -1,0 +1,965 @@
+@charset "UTF-8";
+/************variáveis do menu***************************/
+/***laranja***/
+/*#666666;*/
+/********************************************************/
+/****************************************************/
+/****************************************************/
+/**aqui é a quantidade máxima de cores que eu vou criar**/
+/****************************************************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab");
+.cor_base_clara_BG_1 {
+  background: #393939;
+}
+
+.cor_base_escura_BG_1 {
+  background: #292929;
+}
+
+.cor_2_clara_BG_1 {
+  background: #ff440f;
+}
+
+.cor_2_escura_BG_1 {
+  background: #f03500;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL1 {
+  color: #292929;
+}
+
+.fonte_base_clara-CL1 {
+  color: #393939;
+}
+
+.cor_base_clara_BG_2 {
+  background: #434343;
+}
+
+.cor_base_escura_BG_2 {
+  background: #1f1f1f;
+}
+
+.cor_2_clara_BG_2 {
+  background: #ff5424;
+}
+
+.cor_2_escura_BG_2 {
+  background: #db3000;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL2 {
+  color: #1f1f1f;
+}
+
+.fonte_base_clara-CL2 {
+  color: #434343;
+}
+
+.cor_base_clara_BG_3 {
+  background: #4b4b4b;
+}
+
+.cor_base_escura_BG_3 {
+  background: #181818;
+}
+
+.cor_2_clara_BG_3 {
+  background: #ff6033;
+}
+
+.cor_2_escura_BG_3 {
+  background: #cc2d00;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL3 {
+  color: #181818;
+}
+
+.fonte_base_clara-CL3 {
+  color: #4b4b4b;
+}
+
+.cor_base_clara_BG_4 {
+  background: #525252;
+}
+
+.cor_base_escura_BG_4 {
+  background: #101010;
+}
+
+.cor_2_clara_BG_4 {
+  background: #ff6c42;
+}
+
+.cor_2_escura_BG_4 {
+  background: #bd2900;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL4 {
+  color: #101010;
+}
+
+.fonte_base_clara-CL4 {
+  color: #525252;
+}
+
+.cor_base_clara_BG_5 {
+  background: #5c5c5c;
+}
+
+.cor_base_escura_BG_5 {
+  background: #060606;
+}
+
+.cor_2_clara_BG_5 {
+  background: #ff7c57;
+}
+
+.cor_2_escura_BG_5 {
+  background: #a82500;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL5 {
+  color: #060606;
+}
+
+.fonte_base_clara-CL5 {
+  color: #5c5c5c;
+}
+
+.cor_base_clara_BG_6 {
+  background: #646464;
+}
+
+.cor_base_escura_BG_6 {
+  background: black;
+}
+
+.cor_2_clara_BG_6 {
+  background: #ff8866;
+}
+
+.cor_2_escura_BG_6 {
+  background: #992200;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL6 {
+  color: black;
+}
+
+.fonte_base_clara-CL6 {
+  color: #646464;
+}
+
+.cor_base_clara_BG_7 {
+  background: #6c6c6c;
+}
+
+.cor_base_escura_BG_7 {
+  background: black;
+}
+
+.cor_2_clara_BG_7 {
+  background: #ff9475;
+}
+
+.cor_2_escura_BG_7 {
+  background: #8a1e00;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL7 {
+  color: black;
+}
+
+.fonte_base_clara-CL7 {
+  color: #6c6c6c;
+}
+
+.cor_base_clara_BG_8 {
+  background: #767676;
+}
+
+.cor_base_escura_BG_8 {
+  background: black;
+}
+
+.cor_2_clara_BG_8 {
+  background: #ffa38a;
+}
+
+.cor_2_escura_BG_8 {
+  background: #751a00;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL8 {
+  color: black;
+}
+
+.fonte_base_clara-CL8 {
+  color: #767676;
+}
+
+.cor_base_clara_BG_9 {
+  background: #7e7e7e;
+}
+
+.cor_base_escura_BG_9 {
+  background: black;
+}
+
+.cor_2_clara_BG_9 {
+  background: #ffaf99;
+}
+
+.cor_2_escura_BG_9 {
+  background: #661600;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL9 {
+  color: black;
+}
+
+.fonte_base_clara-CL9 {
+  color: #7e7e7e;
+}
+
+.cor_base_clara_BG_10 {
+  background: #858585;
+}
+
+.cor_base_escura_BG_10 {
+  background: black;
+}
+
+.cor_2_clara_BG_10 {
+  background: #ffbba8;
+}
+
+.cor_2_escura_BG_10 {
+  background: #571300;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL10 {
+  color: black;
+}
+
+.fonte_base_clara-CL10 {
+  color: #858585;
+}
+
+.cor_base_clara_BG_11 {
+  background: #8f8f8f;
+}
+
+.cor_base_escura_BG_11 {
+  background: black;
+}
+
+.cor_2_clara_BG_11 {
+  background: #ffcbbd;
+}
+
+.cor_2_escura_BG_11 {
+  background: #420f00;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL11 {
+  color: black;
+}
+
+.fonte_base_clara-CL11 {
+  color: #8f8f8f;
+}
+
+.cor_base_clara_BG_12 {
+  background: #979797;
+}
+
+.cor_base_escura_BG_12 {
+  background: black;
+}
+
+.cor_2_clara_BG_12 {
+  background: #ffd7cc;
+}
+
+.cor_2_escura_BG_12 {
+  background: #330b00;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL12 {
+  color: black;
+}
+
+.fonte_base_clara-CL12 {
+  color: #979797;
+}
+
+.cor_base_clara_BG_13 {
+  background: #9f9f9f;
+}
+
+.cor_base_escura_BG_13 {
+  background: black;
+}
+
+.cor_2_clara_BG_13 {
+  background: #ffe3db;
+}
+
+.cor_2_escura_BG_13 {
+  background: #240800;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL13 {
+  color: black;
+}
+
+.fonte_base_clara-CL13 {
+  color: #9f9f9f;
+}
+
+.cor_base_clara_BG_14 {
+  background: darkgray;
+}
+
+.cor_base_escura_BG_14 {
+  background: black;
+}
+
+.cor_2_clara_BG_14 {
+  background: #fff3f0;
+}
+
+.cor_2_escura_BG_14 {
+  background: #0f0300;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL14 {
+  color: black;
+}
+
+.fonte_base_clara-CL14 {
+  color: darkgray;
+}
+
+.cor_base_clara_BG_15 {
+  background: #b1b1b1;
+}
+
+.cor_base_escura_BG_15 {
+  background: black;
+}
+
+.cor_2_clara_BG_15 {
+  background: white;
+}
+
+.cor_2_escura_BG_15 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL15 {
+  color: black;
+}
+
+.fonte_base_clara-CL15 {
+  color: #b1b1b1;
+}
+
+.cor_base_clara_BG_16 {
+  background: #b8b8b8;
+}
+
+.cor_base_escura_BG_16 {
+  background: black;
+}
+
+.cor_2_clara_BG_16 {
+  background: white;
+}
+
+.cor_2_escura_BG_16 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL16 {
+  color: black;
+}
+
+.fonte_base_clara-CL16 {
+  color: #b8b8b8;
+}
+
+.cor_base_clara_BG_17 {
+  background: #c2c2c2;
+}
+
+.cor_base_escura_BG_17 {
+  background: black;
+}
+
+.cor_2_clara_BG_17 {
+  background: white;
+}
+
+.cor_2_escura_BG_17 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL17 {
+  color: black;
+}
+
+.fonte_base_clara-CL17 {
+  color: #c2c2c2;
+}
+
+.cor_base_clara_BG_18 {
+  background: #cacaca;
+}
+
+.cor_base_escura_BG_18 {
+  background: black;
+}
+
+.cor_2_clara_BG_18 {
+  background: white;
+}
+
+.cor_2_escura_BG_18 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL18 {
+  color: black;
+}
+
+.fonte_base_clara-CL18 {
+  color: #cacaca;
+}
+
+.cor_base_clara_BG_19 {
+  background: #d2d2d2;
+}
+
+.cor_base_escura_BG_19 {
+  background: black;
+}
+
+.cor_2_clara_BG_19 {
+  background: white;
+}
+
+.cor_2_escura_BG_19 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL19 {
+  color: black;
+}
+
+.fonte_base_clara-CL19 {
+  color: #d2d2d2;
+}
+
+.cor_base_clara_BG_20 {
+  background: gainsboro;
+}
+
+.cor_base_escura_BG_20 {
+  background: black;
+}
+
+.cor_2_clara_BG_20 {
+  background: white;
+}
+
+.cor_2_escura_BG_20 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL20 {
+  color: black;
+}
+
+.fonte_base_clara-CL20 {
+  color: gainsboro;
+}
+
+.cor_base_clara_BG_21 {
+  background: #e4e4e4;
+}
+
+.cor_base_escura_BG_21 {
+  background: black;
+}
+
+.cor_2_clara_BG_21 {
+  background: white;
+}
+
+.cor_2_escura_BG_21 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL21 {
+  color: black;
+}
+
+.fonte_base_clara-CL21 {
+  color: #e4e4e4;
+}
+
+.cor_base_clara_BG_22 {
+  background: #ebebeb;
+}
+
+.cor_base_escura_BG_22 {
+  background: black;
+}
+
+.cor_2_clara_BG_22 {
+  background: white;
+}
+
+.cor_2_escura_BG_22 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL22 {
+  color: black;
+}
+
+.fonte_base_clara-CL22 {
+  color: #ebebeb;
+}
+
+.cor_base_clara_BG_23 {
+  background: whitesmoke;
+}
+
+.cor_base_escura_BG_23 {
+  background: black;
+}
+
+.cor_2_clara_BG_23 {
+  background: white;
+}
+
+.cor_2_escura_BG_23 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL23 {
+  color: black;
+}
+
+.fonte_base_clara-CL23 {
+  color: whitesmoke;
+}
+
+.cor_base_clara_BG_24 {
+  background: #fdfdfd;
+}
+
+.cor_base_escura_BG_24 {
+  background: black;
+}
+
+.cor_2_clara_BG_24 {
+  background: white;
+}
+
+.cor_2_escura_BG_24 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL24 {
+  color: black;
+}
+
+.fonte_base_clara-CL24 {
+  color: #fdfdfd;
+}
+
+.cor_base_clara_BG_25 {
+  background: white;
+}
+
+.cor_base_escura_BG_25 {
+  background: black;
+}
+
+.cor_2_clara_BG_25 {
+  background: white;
+}
+
+.cor_2_escura_BG_25 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL25 {
+  color: black;
+}
+
+.fonte_base_clara-CL25 {
+  color: white;
+}
+
+.cor_base_clara_BG_26 {
+  background: white;
+}
+
+.cor_base_escura_BG_26 {
+  background: black;
+}
+
+.cor_2_clara_BG_26 {
+  background: white;
+}
+
+.cor_2_escura_BG_26 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL26 {
+  color: black;
+}
+
+.fonte_base_clara-CL26 {
+  color: white;
+}
+
+.cor_base_clara_BG_27 {
+  background: white;
+}
+
+.cor_base_escura_BG_27 {
+  background: black;
+}
+
+.cor_2_clara_BG_27 {
+  background: white;
+}
+
+.cor_2_escura_BG_27 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL27 {
+  color: black;
+}
+
+.fonte_base_clara-CL27 {
+  color: white;
+}
+
+.cor_base_clara_BG_28 {
+  background: white;
+}
+
+.cor_base_escura_BG_28 {
+  background: black;
+}
+
+.cor_2_clara_BG_28 {
+  background: white;
+}
+
+.cor_2_escura_BG_28 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL28 {
+  color: black;
+}
+
+.fonte_base_clara-CL28 {
+  color: white;
+}
+
+.cor_base_clara_BG_29 {
+  background: white;
+}
+
+.cor_base_escura_BG_29 {
+  background: black;
+}
+
+.cor_2_clara_BG_29 {
+  background: white;
+}
+
+.cor_2_escura_BG_29 {
+  background: black;
+}
+
+/******************cor das fontes******************/
+.fonte_base_Escura-CL29 {
+  color: black;
+}
+
+.fonte_base_clara-CL29 {
+  color: white;
+}
+
+.page {
+  color: white;
+  line-height: 35px;
+}
+.page h1, .page h2, .page h3 {
+  text-align: center;
+  color: #ff8866;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 26px;
+  line-height: 42px;
+}
+.page a {
+  color: #992200;
+}
+.page ul li {
+  /*color:$monocromatico5;*/
+}
+.page img {
+  filter: grayscale(1);
+}
+
+@media only screen and (max-width: 1024px) {
+  .page {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 33px;
+  }
+  .page h1, .page h2, .page h3 {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .page {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 33px;
+  }
+  .page h1, .page h2, .page h3 {
+    font-size: 18px;
+    text-align: justify;
+  }
+}
+select option:hover {
+  background-color: red;
+  color: red;
+}
+
+footer #footer {
+  display: none;
+}
+footer #whats {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+}
+footer #whats img {
+  width: 50px;
+}
+footer #whats:hover {
+  -webkit-animation: hoverWhats 40s infinite;
+}
+
+@media only screen and (max-width: 1024px) {
+  #footer {
+    display: block;
+    height: 80px;
+    overflow: auto;
+    position: fixed;
+    bottom: -37px;
+    width: 100%;
+    left: 0;
+  }
+  #footer a, #footer div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-bottom: 17px !important;
+  }
+}
+/****animação********/
+@keyframes hoverWhats {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes mymove {
+  0% {
+    right: 1%;
+  }
+  10% {
+    right: 8%;
+  }
+  12% {
+    right: 2%;
+  }
+  100% {
+    right: 1%;
+  }
+}
+/*******************/
+/******************alterações no bootstrap********************/
+.bg-primary {
+  background-color: #313131 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #ff3800;
+  border-color: #ff3800;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #ff3800;
+  border-color: #ff3800;
+}
+
+.form-control:focus {
+  color: none;
+  background-color: none;
+  border-color: #ff3800;
+  outline: 0;
+  box-shadow: 0 0 12px #ff3800;
+}
+
+/*************************************************************/
+body {
+  background-color: #313131;
+  color: white;
+}
+body h1 {
+  letter-spacing: 3px;
+}
+body .btnP1 {
+  background-color: #ff3800 !important;
+  color: black !important;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 13px 0 0 0;
+}
+body input, body select {
+  background-color: #313131 !important;
+  color: #ff3800 !important;
+}
+body a {
+  color: #ffaf99 !important;
+}
+body #servicos, body #home, body #contato {
+  text-transform: UPPERCASE;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+body small {
+  margin: 0px 0 29px 0 !important;
+  display: block;
+}
+body .linhasParalelas {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  margin: 3px 0 34px 0px;
+  padding: 8px 0 13px 0;
+}
+body hr {
+  height: 1px;
+  background-color: #ff3800;
+  width: 90%;
+}
+body span {
+  border-left: 1px dotted #ff3800;
+  border-bottom: 1px dotted #ff3800;
+  height: auto;
+  overflow: auto;
+  display: block;
+  padding: 0 0 12px 22px;
+  margin: 21px 0 15px 0;
+}
+body main, body section {
+  margin: 38px 0 38px 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 0px solid #ff3800;
+  border-bottom: 0px solid #ff3800;
+  font-size: 14px;
+}
+body .header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10%;
+  min-height: 500px;
+  text-align: center;
+  vertical-align: middle;
+}
+body .header small {
+  color: white;
+}
+body .header h1, body .header h2, body .header h3, body .header h4 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white !important;
+}
+
+.divBase {
+  padding: 40px 0 40px 0px;
+}
+
+.cabecalhosBrancos, body main header h2, body section header h2 {
+  font-size: 20px;
+  color: white !important;
+}
+
+::selection {
+  background-color: #ff3800;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,134 @@
+@import "variaveis.scss";
+@import "pageOrPost.scss";
+@import "formularios.scss";
+@import "footer.scss";
+/******************alterações no bootstrap********************/
+.bg-primary {
+    background-color: $fundao!important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $corForte1;
+    border-color: $corForte1;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: $corForte1;
+    border-color: $corForte1;
+}
+.form-control:focus {
+    color: none;
+    background-color:none;
+    border-color: $corForte1;
+    outline: 0;
+    box-shadow: 0 0 12px $corForte1;
+}
+/*************************************************************/
+
+
+
+
+
+body {
+            h1{
+                letter-spacing: 3px;
+            }
+
+           .btnP1{
+            background-color:$corForte1!important;
+            color: black !important;
+            border: none;
+            border-radius: 6px;
+            padding: 8px;
+            margin: 13px 0 0 0;
+           }
+
+            input,select{
+                background-color: $fundao!important;
+                color:$corForte1!important;
+            }
+
+            a{color:$monocromatico1!important;}
+
+            #servicos,#home,#contato{
+            text-transform: UPPERCASE;
+            letter-spacing: 1px;
+            font-size: 40px;
+           }
+
+           small{
+                 margin: 0px 0 29px 0!important;
+                 display: block;
+                }
+
+           background-color:$fundao;
+           color:$corGeral;
+
+            .linhasParalelas{
+                border-bottom: 1px solid $corGeral;
+                border-top: 1px solid $corGeral;
+                margin: 3px 0 34px 0px;
+                padding: 8px 0 13px 0;
+            }
+
+   
+            hr{ 
+                height: 1px;
+                background-color: $corForte1;
+                width: 90%;
+             }
+            
+            span{
+                border-left: 1px dotted $corForte1;
+                border-bottom: 1px dotted  $corForte1;
+                height: auto;
+                overflow: auto;
+                display: block;
+                padding: 0 0 12px 22px;
+                margin: 21px 0 15px 0;
+            }
+
+            main, section{
+                header h2{@extend .cabecalhosBrancos}
+                margin: 38px 0 38px 0;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                border-top: 0px solid $corForte1;
+                border-bottom: 0px solid $corForte1;
+                font-size: 14px;
+            }
+            .header{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 10%;
+                min-height:500px;
+                text-align: center;
+                vertical-align: middle;
+                small{color:white;}
+                
+
+            h1,h2,h3,h4{
+                    letter-spacing: 1px;
+                    font-weight:bold;
+                    text-transform:capitalize;
+                    color:white!important;
+                    }
+            }
+}
+
+.divBase{
+        padding: 40px 0 40px 0px;
+} 
+
+.cabecalhosBrancos{
+    font-size: 20px; color:white!important
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+
+::selection{background-color:$corForte1;}
+
+

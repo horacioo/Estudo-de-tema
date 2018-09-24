@@ -1,0 +1,68 @@
+.page{
+	color:white;
+
+    line-height: 35px;
+
+	h1,h2,h3{
+       text-align:center;
+       color:$monocromatico2;
+
+	    margin: 20px;
+	    text-transform: uppercase;
+	    letter-spacing: 3px;
+	    font-size: 26px;
+	    line-height: 42px;
+	}
+
+    a{
+     color:$monocromatico5;
+    }
+
+	ul{
+	   li{ 
+	       /*color:$monocromatico5;*/
+	     }
+	}
+
+	img{
+	  filter: grayscale(1.0);
+	}
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.page{
+
+		font-size: 18px;
+		text-align: justify;
+		line-height: 33px;
+
+        h1,h2,h3{ 
+            font-size: 18px;
+            text-align: justify;
+         }
+
+    }
+}
+
+
+@media only screen and (max-width: 601px) {
+   
+   .page{
+
+		font-size: 18px;
+		text-align: justify;
+		line-height: 33px;
+
+        h1,h2,h3{ 
+            font-size: 18px;
+            text-align: justify;
+         }
+
+         }
+
+
+}

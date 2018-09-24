@@ -1,0 +1,38 @@
+/************variáveis do menu***************************/
+$fundao:#313131;
+$corForte1:#ff3800; /***laranja***/
+$corGeral:white;/*#666666;*/
+
+/********************************************************/
+
+/****************************************************/
+$monocromatico1:lighten($corForte1, 30%); //#7F1C00;
+$monocromatico2:lighten($corForte1, 20%); //#FF744C;
+$monocromatico3:$corForte1;
+$monocromatico4:darken($corForte1, 10%); //#7F3A26;
+$monocromatico5:darken($corForte1, 20%); //#CC2D00;
+/****************************************************/
+
+$contagem:30; /**aqui é a quantidade máxima de cores que eu vou criar**/
+
+/****************************************************/
+
+ @for $i from 1 to $contagem{
+    
+           $info : 100/$contagem;
+
+          .cor_base_clara_BG_#{$i}  {background: lighten($fundao, round($i*$info)     ) }
+
+          .cor_base_escura_BG_#{$i} {background: darken($fundao, round($i*$info)      ) }
+
+          .cor_2_clara_BG_#{$i}   {background: lighten($corForte1, round($i*$info) ) }
+
+          .cor_2_escura_BG_#{$i}  {background: darken($corForte1,  round($i*$info) ) }
+
+           /******************cor das fontes******************/
+
+          .fonte_base_Escura-CL#{$i} {color: darken($fundao, round($i*$info) ) }
+
+          .fonte_base_clara-CL#{$i} {color: lighten($fundao, round($i*$info) ) }
+        
+ }
